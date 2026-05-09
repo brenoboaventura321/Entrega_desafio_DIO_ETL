@@ -1,0 +1,4 @@
+.env
+ETL_dio.py
+__pycache__/
+*.pyc

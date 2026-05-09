@@ -1,0 +1,44 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Lucas Oliveira",
+      "email": "lucas.oliveira@email.com",
+      "generos_interesse": ["terror", "acao"],
+      "nivel_experiencia": "Hardcore",
+      "jogos_recentes": ["Resident Evil Village", "Doom Eternal"]
+    },
+    {
+      "id": 2,
+      "nome": "Beatriz Souza",
+      "email": "bia.souza@provedor.net",
+      "generos_interesse": ["estrategia", "puzle"],
+      "nivel_experiencia": "Casual",
+      "jogos_recentes": ["Civilization VI", "Portal 2"]
+    },
+    {
+      "id": 3,
+      "nome": "Gabriel Santos",
+      "email": "gabriel.games99@email.com",
+      "generos_interesse": ["acao", "terror"],
+      "nivel_experiencia": "Intermediário",
+      "jogos_recentes": ["Dead Space Remake", "God of War Ragnarok"]
+    },
+    {
+      "id": 4,
+      "nome": "Mariana Costa",
+      "email": "mari.costa@techmail.com",
+      "generos_interesse": ["puzle", "estrategia"],
+      "nivel_experiencia": "Entusiasta",
+      "jogos_recentes": ["The Witness", "Stellaris"]
+    },
+    {
+      "id": 5,
+      "nome": "Ricardo Alves",
+      "email": "ricardo.alves@gamemail.com",
+      "generos_interesse": ["acao", "estrategia"],
+      "nivel_experiencia": "Hardcore",
+      "jogos_recentes": ["Elden Ring", "Age of Empires IV"]
+    }
+  ]
+}
