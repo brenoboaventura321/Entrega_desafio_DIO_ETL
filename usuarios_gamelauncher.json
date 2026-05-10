@@ -39,6 +39,126 @@
       "generos_interesse": ["acao", "estrategia"],
       "nivel_experiencia": "Hardcore",
       "jogos_recentes": ["Elden Ring", "Age of Empires IV"]
+    },
+    {
+      "id": 6,
+      "nome": "Carla Ferreira",
+      "email": "carla.fer@email.com",
+      "generos_interesse": ["terror", "puzle"],
+      "nivel_experiencia": "Casual",
+      "jogos_recentes": ["Amnesia: The Bunker", "Baba Is You"]
+    },
+    {
+      "id": 7,
+      "nome": "Thiago Lima",
+      "email": "thiago.lima@xyz.com",
+      "generos_interesse": ["estrategia", "acao"],
+      "nivel_experiencia": "Intermediário",
+      "jogos_recentes": ["XCOM 2", "Halo Infinite"]
+    },
+    {
+      "id": 8,
+      "nome": "Fernanda Dias",
+      "email": "fdias.gamer@email.com",
+      "generos_interesse": ["puzle", "acao"],
+      "nivel_experiencia": "Entusiasta",
+      "jogos_recentes": ["Unpacking", "Spider-Man 2"]
+    },
+    {
+      "id": 9,
+      "nome": "Bruno Rocha",
+      "email": "bruno.rocha@mail.com",
+      "generos_interesse": ["terror", "estrategia"],
+      "nivel_experiencia": "Hardcore",
+      "jogos_recentes": ["Outlast 2", "Total War: Warhammer III"]
+    },
+    {
+      "id": 10,
+      "nome": "Juliana Meira",
+      "email": "juju.meira@provedor.com",
+      "generos_interesse": ["acao", "puzle"],
+      "nivel_experiencia": "Casual",
+      "jogos_recentes": ["Hades", "Tetris Effect"]
+    },
+    {
+      "id": 11,
+      "nome": "Mateus Silva",
+      "email": "msilva.dev@email.com",
+      "generos_interesse": ["estrategia", "terror"],
+      "nivel_experiencia": "Intermediário",
+      "jogos_recentes": ["Frostpunk", "Phasmophobia"]
+    },
+    {
+      "id": 12,
+      "nome": "Aline Pires",
+      "email": "aline.pires@tech.com",
+      "generos_interesse": ["puzle", "estrategia"],
+      "nivel_experiencia": "Casual",
+      "jogos_recentes": ["Dorfromantik", "Into the Breach"]
+    },
+    {
+      "id": 13,
+      "nome": "Felipe Gomes",
+      "email": "felipe.g@gamers.com",
+      "generos_interesse": ["acao", "terror"],
+      "nivel_experiencia": "Hardcore",
+      "jogos_recentes": ["Sekiro", "Alan Wake 2"]
+    },
+    {
+      "id": 14,
+      "nome": "Camila Nunes",
+      "email": "mila.nunes@email.com",
+      "generos_interesse": ["terror", "estrategia"],
+      "nivel_experiencia": "Entusiasta",
+      "jogos_recentes": ["The Evil Within", "Crusader Kings III"]
+    },
+    {
+      "id": 15,
+      "nome": "Rodrigo Paz",
+      "email": "rodrigo.paz@mail.com",
+      "generos_interesse": ["estrategia", "puzle"],
+      "nivel_experiencia": "Intermediário",
+      "jogos_recentes": ["Factorio", "Humanity"]
+    },
+    {
+      "id": 16,
+      "nome": "Isabela Terra",
+      "email": "isa.terra@xyz.com",
+      "generos_interesse": ["acao", "puzle"],
+      "nivel_experiencia": "Casual",
+      "jogos_recentes": ["Cyberpunk 2077", "Viewfinder"]
+    },
+    {
+      "id": 17,
+      "nome": "Hugo Viana",
+      "email": "hugo.v@email.com",
+      "generos_interesse": ["terror", "acao"],
+      "nivel_experiencia": "Hardcore",
+      "jogos_recentes": ["Silent Hill 2", "Devil May Cry 5"]
+    },
+    {
+      "id": 18,
+      "nome": "Larissa Amorim",
+      "email": "lari.amorim@mail.com",
+      "generos_interesse": ["puzle", "terror"],
+      "nivel_experiencia": "Intermediário",
+      "jogos_recentes": ["Cocoon", "The Callisto Protocol"]
+    },
+    {
+      "id": 19,
+      "nome": "André Luiz",
+      "email": "andre.luiz@gamemail.com",
+      "generos_interesse": ["estrategia", "acao"],
+      "nivel_experiencia": "Entusiasta",
+      "jogos_recentes": ["Company of Heroes 3", "Armored Core VI"]
+    },
+    {
+      "id": 20,
+      "nome": "Vanessa Rocha",
+      "email": "vane.rocha@email.com",
+      "generos_interesse": ["acao", "estrategia"],
+      "nivel_experiencia": "Hardcore",
+      "jogos_recentes": ["Monster Hunter Rise", "Hearts of Iron IV"]
     }
   ]
 }
