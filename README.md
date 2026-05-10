@@ -45,12 +45,33 @@ Para rodar este projeto, você deve configurar suas próprias credenciais da API
     ```bash
     python ETL_dio.py
     ```
+## 📥 Exemplo de Entrada (Dataset)
+O arquivo usuarios_gamelauncher.json serve como a fonte de dados (Extract). Cada objeto representa um perfil de cliente com seus gostos específicos:
+```bash
+{
+  "nome": "Lucas Oliveira",
+  "email": "lucas.oliveira@email.com",
+  "generos_interesse": ["terror", "acao"],
+  "nivel_experiencia": "Hardcore",
+  "jogos_recentes": ["Resident Evil Village", "Doom Eternal"]
+}
+```
+## ⚙️ Limitações do Modelo e Resiliência
+Devido às restrições do Free Tier da API do Google Gemini, o projeto implementa estratégias de Data Engineering para garantir a estabilidade:
 
-## 📝 Exemplo de Saída
+RPM (Requests Per Minute): Limite de 15 requisições por minuto. O script utiliza um intervalo de segurança (time.sleep(5)) para evitar bloqueios.
 
-O script gera mensagens personalizadas como esta:
-> *"Olá [Nome]! Como um jogador de nível Hardcore e fã de Terror, que tal encarar o novo Resident Evil ou Silent Hill? Temos ofertas exclusivas para você na GamesLauncher-BR!"*
+Gestão de Erros (429 e 503): O pipeline conta com lógica de retentativa e pausa automática (Exponential Backoff) caso os limites de taxa sejam atingidos ou o servidor apresente instabilidade por alta demanda.
 
+## 📤 Saída Esperada (JSON de E-mails)
+Ao final da execução (Load), o script consolida todas as transformações em um dicionário Python (convertível para JSON), onde a chave é o e-mail do usuário e o valor é o conteúdo gerado pela IA:
+```bash
+{
+  "lucas.oliveira@email.com": "Olá Lucas! Como um veterano Hardcore de Resident Evil, a GamesLauncher-BR separou 5 novos títulos de terror e ação de arrepiar para você. Confira no nosso catálogo!",
+  "bia.souza@provedor.net": "Oi Beatriz! Notamos seu nível Casual em estratégia. Que tal exercitar a mente com 5 novos puzzles e jogos de lógica que acabaram de chegar? Aproveite!",
+  "gabriel.games99@email.com": "Gabriel, o terror te espera! Com base em Dead Space, selecionamos 5 games de ação e horror para desafiar suas habilidades de nível Intermediário."
+}
+```
 ---
 
 ### 👤 Autor
