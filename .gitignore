@@ -1,5 +1,4 @@
 .env
-Entrega_de_desafio_DIO_ETL.ipynb
 ETL_dio.py
 __pycache__/
 *.pyc
